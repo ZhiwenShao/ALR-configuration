@@ -30,7 +30,7 @@ layer {
   data_param {
     source: "testldb"
     mean_file: "mean_2.binaryproto"
-    batch_size: 5
+    batch_size: 1
   }
   include: { phase: TEST }  
 }
@@ -41,7 +41,7 @@ layer {
   top: "ground_land"
   data_param {
     source: "test_land_scale"
-    batch_size: 5
+    batch_size: 1
   }
   include: { phase: TEST }
 }
