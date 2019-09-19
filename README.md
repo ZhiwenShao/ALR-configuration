@@ -1,4 +1,3 @@
-# face_align_demo
 face_align_demo.mp4 is a short video which shows the result of face alignment method proposed in [1]. "Face_align_train_val.txt" and "Face_align_solver.prototxt" are the Caffe configuration files.
 
 Reference:
@@ -7,5 +6,3 @@ Reference:
 Note:
 1. The video is processed frame by frame without post processing.
 2. We first use the face detector provided in http://mmlab.ie.cuhk.edu.hk/archive/CNN_FacePoint.htm to detect the faces in the frame and then process face alignment for each face.
-
-Should you have any questions, then just contact with us through email, shaozhiwen@sjtu.edu.cn.
