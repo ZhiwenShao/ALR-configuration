@@ -5,4 +5,4 @@ Reference:
 
 Note:
 1. The video is processed frame by frame without post processing.
-2. We first use the face detector provided in http://mmlab.ie.cuhk.edu.hk/archive/CNN_FacePoint.htm to detect the faces in the frame and then process face alignment for each face.
+2. We first use the [face detector](http://mmlab.ie.cuhk.edu.hk/archive/CNN_FacePoint.htm) to detect the faces in the frame and then process face alignment for each face.
